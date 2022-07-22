@@ -11,6 +11,7 @@
 	<groupId>com.sample</groupId>
 	<artifactId>sample-data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>CustomerProject</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -51,6 +52,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springboot-crud-k8s</finalName>
 	</build>
 
 </project>
